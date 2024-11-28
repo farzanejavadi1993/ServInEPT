@@ -14,7 +14,6 @@ class MVIViewModel {
                 //Call UseCase
                 state = state.copy(isLoading = true)
 
-
                 if (true) {
                     state = state.copy(isLoading = false, uIProductEntity = UIProductEntity(2))
                 } else {

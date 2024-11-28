@@ -11,4 +11,8 @@ class Local {
     fun addProductToFave(productLocal: ProductLocal) {}
 
 
+    fun getInvoice(): InvoiceLocal {
+        return InvoiceLocal("",0)
+    }
+    fun insertInvoice(invoiceLocal: InvoiceLocal) {}
 }

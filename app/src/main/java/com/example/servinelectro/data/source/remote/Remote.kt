@@ -6,4 +6,9 @@ class Remote {
         return ProductRemote("")
     }
 
+    fun getInvoice() : InvoiceRemote{
+        return InvoiceRemote("",0)
+    }
+
+
 }
